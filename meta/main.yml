@@ -8,12 +8,22 @@ galaxy_info:
   min_ansible_version: 2.4
 
   platforms:
+    - name: Ubuntu
+      versions:
+        - 18.04
+        - 16.04
     - name: Debian
       versions:
-        - all
-    - name: Redhat
+        - 9
+        - 8
+    - name: CentOS
       versions:
-        - all
+        - 7
+        - 6
+    - name: Fedora
+      versions:
+        - 29
+        - 27
 
   galaxy_tags: []
 
