@@ -1,10 +1,10 @@
 ---
 galaxy_info:
-  author: Marcin Slabonski
-  description: Ansible role: OS upgrade
-  company: None
+  author: "Marcin Slabonski"
+  description: "Ansible role: OS upgrade"
+  company: "None"
 
-  license: MIT
+  license: "MIT"
 
   min_ansible_version: 2.4
 
