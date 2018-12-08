@@ -1,5 +1,7 @@
 # Ansible role: OS upgrade
 
+[![Build Status](https://travis-ci.org/kamikazestar/ansible-role-os-upgrade.svg?branch=master)](https://travis-ci.org/kamikazestar/ansible-role-os-upgrade)
+
 This role will upgrade your operating system to newest available version.
 
 ## Requirements
