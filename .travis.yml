@@ -4,10 +4,10 @@ sudo: required
 # List of the OS'es that will be used for the test.
 env:
   - distro: ubuntu1804
-    nit: /lib/systemd/systemd
+    init: /lib/systemd/systemd
     run_opts: "--privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro"
   - distro: ubuntu1604
-    nit: /lib/systemd/systemd
+    init: /lib/systemd/systemd
     run_opts: "--privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro"
   - distro: debian9
     init: /lib/systemd/systemd
