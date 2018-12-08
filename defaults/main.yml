@@ -1,3 +1,3 @@
 ---
 debian_upgrade_type: dist
-debian_autoremove: yes
+debian_autoremove: true
