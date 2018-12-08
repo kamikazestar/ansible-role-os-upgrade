@@ -1,10 +1,10 @@
 ---
 - name: Upgrade OS
   apt:
-    upgrade: {{ debian_upgrade_type }}
-    update_cache: yes
+    upgrade: {{debian_upgrade_type}}
+    update_cache: true
     cache_valid_time: 3600
 
 - name: Perform autoremove after upgade
   apt:
-    autoremove: {{ debian_autoremove }}
+    autoremove: {{debian_autoremove}}
