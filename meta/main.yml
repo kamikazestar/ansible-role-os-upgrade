@@ -17,7 +17,7 @@ galaxy_info:
       versions:
         - stretch
         - jessie
-    - name: CentOS
+    - name: Centos
       versions:
         - 7
         - 6
