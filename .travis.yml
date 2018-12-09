@@ -4,7 +4,7 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: ansible_role_os_upgrade
+    - ROLE_NAME: os-upgrade
   matrix:
     - MOLECULE_DISTRO: centos7
     - MOLECULE_DISTRO: centos6
@@ -22,7 +22,7 @@ install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv $ROLE_NAME kamikazestar.$ROLE_NAME
+  - mv ansible-role-$ROLE_NAME kamikazestar.$ROLE_NAME
   - cd kamikazestar.$ROLE_NAME
 
 script:
