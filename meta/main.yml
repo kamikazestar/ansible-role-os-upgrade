@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: "ansible-role-os-upgrade"
   author: "Marcin Slabonski"
   description: "Ansible role: OS upgrade"
   company: "None"
