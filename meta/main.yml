@@ -12,8 +12,8 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
+        - disco
         - bionic
-        - xenial
     - name: Debian
       versions:
         - stretch
@@ -24,8 +24,8 @@ galaxy_info:
         - 6
     - name: Fedora
       versions:
+        - 30
         - 29
-        - 27
 
 galaxy_tags: []
 
