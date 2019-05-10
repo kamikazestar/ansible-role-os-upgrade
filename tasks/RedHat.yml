@@ -1,5 +1,5 @@
 ---
 - name: Upgrade OS
   yum:
-    name: '*'
-    state: latest
+    name: "*"
+    state: latest # noqa 403
