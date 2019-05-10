@@ -11,8 +11,8 @@ env:
     - MOLECULE_DISTRO: fedora29
     - MOLECULE_DISTRO: fedora27
     # Line commented du to error while running image:
-    # Failed to mount tmpfs at /run: Operation not permitted \n
-    # Failed to mount cgroup at /sys/fs/cgroup/systemd: Operation not permitted \n
+    # Failed to mount tmpfs at /run: Operation not permitted
+    # Failed to mount cgroup at /sys/fs/cgroup/systemd: Operation not permitted
     # [!!!!!!] Failed to mount API filesystems, freezing.
     # - MOLECLUE_DISTRO: amazonlinux2
     - MOLECULE_DISTRO: ubuntu1804
