@@ -6,10 +6,10 @@ env:
   global:
     - ROLE_NAME: os-upgrade
   matrix:
+    - MOLECULE_DISTRO: centos8
     - MOLECULE_DISTRO: centos7
-    - MOLECULE_DISTRO: centos6
+    - MOLECULE_DISTRO: fedora30
     - MOLECULE_DISTRO: fedora29
-    - MOLECULE_DISTRO: fedora27
     # Line commented du to error while running image:
     # Failed to mount tmpfs at /run: Operation not permitted
     # Failed to mount cgroup at /sys/fs/cgroup/systemd: Operation not permitted
@@ -17,8 +17,8 @@ env:
     # - MOLECLUE_DISTRO: amazonlinux2
     - MOLECULE_DISTRO: ubuntu1804
     - MOLECULE_DISTRO: ubuntu1604
+    - MOLECULE_DISTRO: debian10
     - MOLECULE_DISTRO: debian9
-    - MOLECULE_DISTRO: debian8
 
 install:
   # Install test dependencies.
