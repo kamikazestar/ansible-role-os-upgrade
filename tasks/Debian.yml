@@ -11,7 +11,9 @@
 
 - name: Check that reboot is required
   shell: cat /var/run/reboot-required
+  failed_when: false
   register: reboot_required
+  changed_when: false
 
 - name: Reboot OS if required
   notify: os_reboot
