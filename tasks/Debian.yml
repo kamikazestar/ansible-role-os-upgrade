@@ -10,12 +10,9 @@
     autoremove: "{{ debian_autoremove }}"
 
 - name: Check that reboot is required
-  shell: cat /var/run/reboot-required
+  shell: "[ -f /var/run/reboot-required ]"
   failed_when: false
   register: reboot_required
-  changed_when: false
-
-- name: Reboot OS if required
-  notify:
-    - os_reboot
-  when: reboot_required != 0
+  changed_when: reboot_required.rc == 0
+  notify: os_reboot
+  
