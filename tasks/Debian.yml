@@ -18,4 +18,4 @@
 - name: Reboot OS if required
   notify:
     - os_reboot
-  when: reboot_required
+  when: reboot_required != 0
