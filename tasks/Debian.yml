@@ -16,5 +16,6 @@
   changed_when: false
 
 - name: Reboot OS if required
-  notify: os_reboot
+  notify:
+    - os_reboot
   when: reboot_required
