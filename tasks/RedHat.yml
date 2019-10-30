@@ -12,4 +12,3 @@
   register: reboot_required
   changed_when: false
   notify: os_reboot
-  

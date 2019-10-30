@@ -15,4 +15,3 @@
   register: reboot_required
   changed_when: reboot_required.rc == 0
   notify: os_reboot
-  
