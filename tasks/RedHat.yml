@@ -7,7 +7,7 @@
     - skip_ansible_lint
 
 - name: Check that reboot is required
-  shell: needs-restarting -r
+  command: needs-restarting -r
   failed_when: false
   register: reboot_required
   changed_when: false
