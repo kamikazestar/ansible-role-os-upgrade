@@ -8,3 +8,11 @@
 - name: Perform autoremove after upgade
   apt:
     autoremove: "{{ debian_autoremove }}"
+
+- name: Check that reboot is required
+  shell: cat /var/run/reboot-required
+  register: reboot_required
+
+- name: Reboot OS if required
+  notify: os_reboot
+  when: reboot_required

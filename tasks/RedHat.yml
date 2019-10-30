@@ -5,3 +5,11 @@
     state: latest
   tags:
     - skip_ansible_lint
+
+- name: Check that reboot is required
+  shell: needs-restarting -r
+  register: reboot_required
+
+- name: Reboot OS if required
+  notify: os_reboot
+  when: reboot_required
