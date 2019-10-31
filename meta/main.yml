@@ -27,6 +27,6 @@ galaxy_info:
         - 31
         - 30
 
-galaxy_tags: []
+  galaxy_tags: []
 
 dependencies: []
