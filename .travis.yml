@@ -19,7 +19,7 @@ env:
     # Failed to mount tmpfs at /run: Operation not permitted
     # Failed to mount cgroup at /sys/fs/cgroup/systemd: Operation not permitted
     # [!!!!!!] Failed to mount API filesystems, freezing.
-    # - MOLECLUE_DISTRO: amazonlinux2
+    - MOLECLUE_DISTRO: amazonlinux2
     - MOLECULE_DISTRO: ubuntu1804
     - MOLECULE_DISTRO: ubuntu1604
     - MOLECULE_DISTRO: debian10
