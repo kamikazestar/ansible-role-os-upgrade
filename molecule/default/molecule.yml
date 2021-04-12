@@ -2,7 +2,8 @@
 dependency:
   name: galaxy
 lint: |
-  yamllint
+  set -e
+  yamllint .
 platforms:
   - name: instance
     image: "geerlingguy/docker-${MOLECULE_DISTRO}-ansible:latest"
