@@ -23,7 +23,7 @@ galaxy_info:
         - 8
         - 7
     - name: Fedora
-      versions:z§
+      versions:
         - 33
         - 32
 
