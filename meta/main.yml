@@ -12,19 +12,20 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
+        - focal
         - bionic
-        - xenial
     - name: Debian
       versions:
+        - buster
         - stretch
-        - jessie
     - name: EL
       versions:
+        - 8
         - 7
-        - 6
     - name: Fedora
       versions:
-        - 29
-        - 28
+        - 33
+        - 32
+
 
 dependencies: []
