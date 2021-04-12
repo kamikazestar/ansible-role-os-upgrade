@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   role_name: "ansible_role_os_upgrade"
+  namespace: "kamikazestar"
   author: "Marcin Slabonski"
   description: "Ansible role: OS upgrade"
   company: "None"
