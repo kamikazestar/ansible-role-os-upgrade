@@ -10,4 +10,4 @@
       changed_when: false
 
   roles:
-    - role: kamikazestar.os-upgrade
+    - role: kamikazestar.ansible_role_os_upgrade
