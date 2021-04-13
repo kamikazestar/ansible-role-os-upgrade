@@ -9,7 +9,7 @@ branches:
 
 env:
   global:
-    - ROLE_NAME: os-upgrade
+    - ROLE_NAME: ansible_role_os_upgrade
   matrix:
     - MOLECULE_DISTRO: centos8
     - MOLECULE_DISTRO: centos7
