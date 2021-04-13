@@ -2,7 +2,6 @@
 dependency:
   name: galaxy
 lint: |
-  set -e
   yamllint .
 platforms:
   - name: instance
